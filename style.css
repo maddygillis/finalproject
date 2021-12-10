@@ -1,5 +1,20 @@
+html {
+background: #e6ddd1;
+}
+
+body {
+    background-color: #eee9e3 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin: 40px;
+    padding: 40px;
+    color: black;
+    border-top: 10px #51e2f5;
+}
+
+
 .card { 
-    background-color: #f3f3f3;
+    background-color:#eeedeb;
     border-radius: 15px;
     margin: 0 auto;
     width: 400px;
@@ -14,3 +29,53 @@
     border-radius: 50%;
     margin-top: -50px;
 }
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    background-color: #e6ddda;
+    display: inline-block;
+    padding: 10px 5px;
+    display: grid;
+}
+
+
+.about {
+    display: grid
+    grid-gap: 10px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 20px;
+    gap: 60px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    width: 65px;
+    gap: 100px;
+    align-content: center;
+
+}
+
+@media (max-width: 400px) {
+    .icons {
+        flex-direction: column;
+    }
